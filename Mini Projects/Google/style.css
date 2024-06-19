@@ -1,0 +1,154 @@
+.mother {
+    background-color: #202124;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav div{
+    padding: 10px;
+}
+
+.container {
+    color: white;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px;
+
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+}
+
+.profile {
+    display: inline-block;
+    border-radius: 100%;
+    width: 40px;
+}
+
+.nav-link {
+    padding: 6px;
+    margin: 4px;
+}
+
+.nav-link:hover { 
+    color: white;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.nav-img:hover {
+    background-color: #515151;
+    border-radius: 50%;
+}
+
+.mainphoto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 196px;
+
+}
+
+.google {
+    width: 250px;
+     margin-bottom: 28px;
+}
+
+.searchbar {
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 20px;
+    padding-top: 5px;
+    width: 584px;
+    height: 34px;
+    box-shadow: -3px 3px 4px 0px rgba(0,0,0,0.75);
+}
+
+.searchbar:hover {
+    background-color: #303134;
+    border: 1px solid #202124;
+}
+
+.icon {
+    padding: 5px 10px 10px;
+    height: 100%;
+   
+}
+
+.text {
+    all: unset;
+    color: #ffff;
+    padding-top: 5px;
+    padding-left: 8px;
+    
+}
+
+.buttonscontrol {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 40px;
+    background-color: #303134;
+    color: #ffff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    border: 1px solid #303134;
+    font-size: 14px;
+}
+
+.buttons:hover {
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.letter {
+    color: #bcd1c6;
+    font-size: 14px;
+    font-family: Helvetica Neue,Arial,Noto Sans Myanmar UI,sans-serif;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.myanmar {
+    color: #8ab4f8; 
+}
+
+.myanmar:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    color: rgb(154, 160, 166);
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+    height: px;
+    font-family: Helvetica Neue;
+}
+
+.botttomfooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upper{
+    padding: 15px 30px;
+}
+
+.links div {
+    padding: 20px;
+}
+
+

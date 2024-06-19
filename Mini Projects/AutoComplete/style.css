@@ -1,0 +1,51 @@
+body {
+    background-color: #343a40;
+}
+
+.sdla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Borel', cursive;
+    margin-top: 100px;
+}
+
+.container {
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.form-control {
+    max-width: 500px;
+}
+
+.autoCompleteInput {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.resultContainer {
+    background-color: #fff;
+}
+
+.productItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.productName {
+    font-size: 14px;
+    width: 80%;
+}
+
+.productImage {
+    height: 90%;
+}
